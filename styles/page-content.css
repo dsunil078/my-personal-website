@@ -1,16 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
-.bg-container {
-    background-image: url("../assets/images/backgrounds/bg-home-page.jpg");
-    background-size: cover;
-    height: 100vh;
+
+.about-me-section-container {
+    background-color: #323f4b;
+    font-family: "Roboto";
+    color: white;
+    padding-top: 120px;
+
+}
+
+.about-me-section-container-heading {
+    color: #cced00;
+}
+
+.about-me-section-container-image {
+    border-radius: 15px;
+
+}
+
+.about-me-section-container-details {
+    color: #9aa5b1;
+    font-size: 18px;
+
+}
+
+.about-me-section-skills-container {
+    background-color: #1f2933;
+    font-family: "Roboto";
 }
 
 .main-heading {
-    color: orange;
+    color: black;
     font-style: italic;
     font-family: "Caveat";
     padding: 40px;
     width: 50vh;
     font-size: 35px;
     font-weight: 900;
+}
+
+.skills-card {
+    background-color: #323f4b;
+    border-radius: 8px;
+    height: 150px;
+    text-align: center;
+
+}
+
+
+.skill-image {
+    height: 70px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.skill-card-title {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
 }

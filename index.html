@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="../my-personal-website/styles/page-content.css"/>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <a class="navbar-brand" href="../my-personal-website/index.html">
                 <img class="nav-bar-logo" src="../my-personal-website/assets/images/logos/my-logo-cropped.jpeg" />
             </a>
@@ -18,7 +18,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link custom-nav-links active" href="../my-personal-website/index.html">About Me <span class="sr-only">(current)</span></a>
+                    <a class="nav-link custom-nav-links active" href="#about-me-section">About Me <span class="sr-only">(current)</span></a>
                     <a class="nav-link custom-nav-links" href="#">Education</a>
                     <a class="nav-link custom-nav-links" href="#">Projects</a>
                     <a class="nav-link custom-nav-links" href="#">Industry</a>
@@ -28,10 +28,97 @@
             </div>
         </nav>
 
-        <div class="bg-container d-flex flex-row justify-content-start">
-                <h1 class="main-heading">Hey,
-                    I'm Sunil Dollu, Data engineer with a keen interest in advancing my skills in machine learning and artificial intelligence
-                </h1>
+       <!-- <div class="bg-container d-flex flex-column justify-content-center">
+            <h1 class="main-heading">Hey,
+                I'm Sunil Dollu, Data engineer with a keen interest in advancing my skills in machine learning and artificial intelligence
+            </h1>
+        </div>-->
+
+        <div id="about-me-section">
+            <div class="about-me-section-container pb-3">
+                <div class="container">
+                    <div class="row">
+    
+    
+                        <div class="d-none d-lg-block col-lg-6 mb-3">
+                            <img src="../my-personal-website/assets/images/backgrounds/my-profile.jpg"  class="about-me-section-container-image w-100"/>
+                        </div>
+    
+    
+                        <div class="col-12 col-lg-6">
+                            <h1 class="about-me-section-container-heading">About me</h1>
+                            <img src="../my-personal-website/assets/images/backgrounds/my-profile.jpg"  class="about-me-section-container-image d-lg-none w-100 mb-3"/>
+                            <p class="about-me-section-container-details"> Hey,
+                                I'm Sunil Dollu, and I bring 9 years of experience as a Data Engineer, 
+                                with a strong passion for enhancing my skills in machine learning and 
+                                artificial intelligence. I hold a bachelor's degree in Computer Science 
+                                and Engineering. Colleagues often describe me as an enthusiastic, 
+                                self-driven team player with excellent communication skills.</br></br>
+    
+                                Outside of work, I enjoy reading, which has not only broadened my knowledge 
+                                and perspective but also significantly improved my teaching and presentation abilities.
+                            </p>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+
+            <div class="about-me-section-skills-container pt-3 pb-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="about-me-section-container-heading">Skills</h1>
+                        </div>
+
+                        <div class="col-12 col-md-3 col-lg-2 mb-5">
+                            <div class="skills-card p-2">
+                                <img src="../my-personal-website/assets/images/skills-images/python.jpg"  class="skill-image mb-2"/>
+                                <p class="skill-card-title">Python</p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-3 col-lg-2 mb-5">
+                            <div class="skills-card p-2">
+                                <img src="../my-personal-website/assets/images/skills-images/java.jpg"  class="skill-image mb-2"/>
+                                <p class="skill-card-title">Java</p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-3 col-lg-2 mb-5">
+                            <div class="skills-card p-2">
+                                <img src="../my-personal-website/assets/images/skills-images/spark.jpg"  class="skill-image mb-2"/>
+                                <p class="skill-card-title">Apache Spark</p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-3 col-lg-2 mb-5">
+                            <div class="skills-card p-2">
+                                <img src="../my-personal-website/assets/images/skills-images/azure-synapse.jpg"  class="skill-image mb-2"/>
+                                <p class="skill-card-title">Azure Synapse</p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-3 col-lg-2 mb-5">
+                            <div class="skills-card p-2">
+                                <img src="../my-personal-website/assets/images/skills-images/azure-databricks.jpg"  class="skill-image mb-2"/>
+                                <p class="skill-card-title">Azure Databricks</p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-3 col-lg-2 mb-5">
+                            <div class="skills-card p-2">
+                                <img src="../my-personal-website/assets/images/skills-images/azure-functions.jpg"  class="skill-image mb-2"/>
+                                <p class="skill-card-title">Azure Functions</p>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+            
+
         </div>
 
     </body>
