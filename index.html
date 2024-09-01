@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="../my-personal-website/styles/page-content.css"/>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="../my-personal-website/index.html">
                 <img class="nav-bar-logo" src="../my-personal-website/assets/images/logos/my-logo-cropped.jpeg" />
             </a>
@@ -18,9 +18,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link custom-nav-links active" href="#about-me-section">About Me <span class="sr-only">(current)</span></a>
+                    <a class="nav-link custom-nav-links" href="#about-me-section">About Me <span class="sr-only">(current)</span></a>
                     <a class="nav-link custom-nav-links" href="#">Education</a>
-                    <a class="nav-link custom-nav-links" href="#">Projects</a>
+                    <a class="nav-link custom-nav-links" href="#projects-section">Projects</a>
                     <a class="nav-link custom-nav-links" href="#">Industry</a>
                     <a class="nav-link custom-nav-links" href="#">Blogs</a>
                     <a class="nav-link custom-nav-links" href="#">Follow Me</a>
@@ -28,14 +28,8 @@
             </div>
         </nav>
 
-       <!-- <div class="bg-container d-flex flex-column justify-content-center">
-            <h1 class="main-heading">Hey,
-                I'm Sunil Dollu, Data engineer with a keen interest in advancing my skills in machine learning and artificial intelligence
-            </h1>
-        </div>-->
-
         <div id="about-me-section">
-            <div class="about-me-section-container pb-3">
+            <div class="about-me-section-container section-bg-color-one pt-3 pb-3">
                 <div class="container">
                     <div class="row">
     
@@ -46,7 +40,7 @@
     
     
                         <div class="col-12 col-lg-6">
-                            <h1 class="about-me-section-container-heading">About me</h1>
+                            <h1 class="section-main-heading">About me</h1>
                             <img src="../my-personal-website/assets/images/backgrounds/my-profile.jpg"  class="about-me-section-container-image d-lg-none w-100 mb-3"/>
                             <p class="about-me-section-container-details"> Hey,
                                 I'm Sunil Dollu, and I bring 9 years of experience as a Data Engineer, 
@@ -64,11 +58,11 @@
                 </div>
             </div>
 
-            <div class="about-me-section-skills-container pt-3 pb-3">
+            <div class="skills-container section-bg-color-two pt-3 pb-3">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h1 class="about-me-section-container-heading">Skills</h1>
+                            <h1 class="section-main-heading">Skills</h1>
                         </div>
 
                         <div class="col-12 col-md-3 col-lg-2 mb-5">
@@ -118,6 +112,87 @@
                 </div>
             </div>
             
+
+        </div>
+
+        <div id="projects-section" class="projects-container section-bg-color-one pt-3 pb-3">
+            <div class="container">
+                <div class="row">
+                    <h1 class="section-main-heading col-12">Projects</h1>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card project-card" style="width: 18rem;">
+                            <img class="card-img-top project-image" src="../my-personal-website/assets/images/projects-images/todo-app.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title project-card-title">Todo App</h5>
+                              <p class="card-text project-card-description">An online todo app helps you organize and keep track of tasks from any device.</p>
+                            </div>
+                            <div class="card-body">
+                              <a href="#" class="card-link">Try now
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                              </svg>
+                            </a>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card project-card" style="width: 18rem;">
+                            <img class="card-img-top project-image" src="../my-personal-website/assets/images/projects-images/coming-soon.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title project-card-title">Coming soon!!</h5>
+                              <p class="card-text project-card-description">Coming soon...</p>
+                            </div>
+                            <div class="card-body">
+                              <a href="#" class="card-link">Try now
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                              </svg>
+                            </a>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card project-card" style="width: 18rem;">
+                            <img class="card-img-top project-image" src="../my-personal-website/assets/images/projects-images/coming-soon.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title project-card-title">Coming soon!!</h5>
+                              <p class="card-text project-card-description">Coming soon...</p>
+                            </div>
+                            <div class="card-body">
+                              <a href="#" class="card-link">Try now
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                              </svg>
+                            </a>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card project-card" style="width: 18rem;">
+                            <img class="card-img-top project-image" src="../my-personal-website/assets/images/projects-images/coming-soon.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title project-card-title">Coming soon!!</h5>
+                              <p class="card-text project-card-description">Coming soon...</p>
+                            </div>
+                            <div class="card-body">
+                              <a href="#" class="card-link">Try now
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                              </svg>
+                            </a>
+                            </div>
+                          </div>
+                    </div>
+
+                    
+
+                </div>
+
+            </div>
+
 
         </div>
 
