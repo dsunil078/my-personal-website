@@ -7,9 +7,10 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="../my-personal-website/styles/nav-bar.css"/>
         <link rel="stylesheet" href="../my-personal-website/styles/page-content.css"/>
+        <title>Sunil Kumar Dollu Profile</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <a class="navbar-brand" href="../my-personal-website/index.html">
                 <img class="nav-bar-logo" src="../my-personal-website/assets/images/logos/my-logo-cropped.jpeg" />
             </a>
@@ -18,18 +19,18 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link custom-nav-links" href="#about-me-section">About Me <span class="sr-only">(current)</span></a>
-                    <a class="nav-link custom-nav-links" href="#">Education</a>
-                    <a class="nav-link custom-nav-links" href="#projects-section">Projects</a>
-                    <a class="nav-link custom-nav-links" href="#">Industry</a>
-                    <a class="nav-link custom-nav-links" href="#">Blogs</a>
-                    <a class="nav-link custom-nav-links" href="#">Follow Me</a>
+                    <a id="aboutMeSectionLink" class="nav-link custom-nav-links active" href="#about-me-section">About Me <span class="sr-only">(current)</span></a>
+                    <a class="nav-link custom-nav-links disabled" href="#">Education</a>
+                    <a id="projectSectionLink" class="nav-link custom-nav-links" href="#projects-section">Projects</a>
+                    <a class="nav-link custom-nav-links disabled" href="#">Industry</a>
+                    <a class="nav-link custom-nav-links disabled" href="#">Blogs</a>
+                    <a class="nav-link custom-nav-links disabled" href="#">Follow Me</a>
                 </div>
             </div>
         </nav>
 
         <div id="about-me-section">
-            <div class="about-me-section-container section-bg-color-one pt-3 pb-3">
+            <div class="about-me-section-container section-bg-color-one">
                 <div class="container">
                     <div class="row">
     
@@ -115,7 +116,7 @@
 
         </div>
 
-        <div id="projects-section" class="projects-container section-bg-color-one pt-3 pb-3">
+        <div id="projects-section" class="projects-container section-bg-color-one pb-3">
             <div class="container">
                 <div class="row">
                     <h1 class="section-main-heading col-12">Projects</h1>
@@ -196,6 +197,7 @@
 
         </div>
 
+        <script src="../my-personal-website/app.js"></script>
     </body>
 </html>
 
